@@ -16,6 +16,7 @@
 
 -module(test_emqx).
 
+-include("emqx.hrl").
 
 -export([ load/1
         , unload/0
